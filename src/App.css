@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@300&family=Poppins&family=Roboto:wght@500&display=swap");
+.blue {
+  color: #003895;
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.blue2 {
+  color: #003895;
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bg-blue {
+  background: #4285f4;
+}
+.text-bleu {
+  color: #4285f4;
+}
+.text-jaune {
+  color: #fbbc04;
+}
+.bg-blue-2 {
+  border-color: #1f69e2;
+}
+.nav {
+  clip-path: inset(0 0 0 100%);
+}
+.active {
+  clip-path: inset(0 0 0 0);
+}
+.menu-open {
+  overflow: hidden;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.swiper {
+  width: 60%;
+  height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper {
+    width: 95%;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .myndSwiper.swiper {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .myndSwiper.swiper {
+    width: 87%;
+  }
+}
+.mySwiper .swiper-slide {
+  width: fit-content;
+  text-align: center;
+  font-size: 18px;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myndSwiper .swiper-slide {
+  background-color: transparent;
+}
